@@ -1,0 +1,4 @@
+instalar nodejs
+abrir el proyecto en consola y hacer npm install
+abrir la raiz /src y ejecutar el comando nodemon index.js development
+ir al puerto localhost:3000
