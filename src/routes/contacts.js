@@ -13,9 +13,9 @@ router.get('/', (req, res) => {
 
 // GET all Contacts
 router.get('/contacts', (req, res) => {
-  mysqlConnection.query('SELECT * FROM contactos', (err, rows, fields) => {
+  mysqlConnection.query('SELECT * FROM contactos limit 0, 1000', (err, rows, fields) => {
     if(!err) {
-      res.json(rows);
+      res.send({data: rows});                                   
     } else {
       console.log(err);
     }
