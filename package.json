@@ -12,7 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "damn-simple-xml": "^1.2.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mysql": "^2.15.0"
   },
   "devDependencies": {
